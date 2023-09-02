@@ -1,0 +1,60 @@
+.frameID{
+    width :700px ;
+    height :110px ;
+    frameborder:no; 
+    scrolling:no;
+    
+    
+  }
+  
+  #beats-container{
+    color:white;
+    margin-left: 20px;
+    margin-right:20px;
+    
+    background-color: black;
+  }
+  
+  #top-container{
+    display:flex;
+    padding-left: 20px;
+    padding-right:20px;
+  }
+  #top{
+    
+    display:flex;
+    align-items: center;
+  }
+  
+  #top-container h1{
+    flex: 1  0;
+  }
+  
+  #toolbar {
+    background-color: grey;
+    padding-left: 20px;
+    padding-right:20px;
+  
+  }
+  #toolbar ul{
+    padding:0;
+  }
+  
+  #top-container ul{
+    padding-top:14px;
+    text-align: justify;
+    list-style-type: none;
+    display:table-column;
+  }
+  #song-list{
+    text-align: center;
+  }
+  #top-container li{
+    display: table-cell;
+    vertical-align: middle; 
+  
+  }
+  #song-list li{
+    list-style-type: none;
+  }
+  

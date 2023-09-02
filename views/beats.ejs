@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/beats.css">
+  </head>
+  <body>
+
+    <div id="beats-container">
+      <div id="top-container">
+        
+          <h1>Day Dream Beats</h1>
+          <ul>
+            <li><iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Falfredo-gonzalez-640250013&color=orange_white&size=32" style="width: 32px; height: 32px;"></iframe></li>
+            
+          </ul>
+        
+      </div>
+      <div id="toolbar">
+        
+      </div>
+
+      <div id="content">
+        <div id="song-list">
+          <ul >
+            <li>
+                <iframe class="frameID" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/651828629&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" ></iframe>
+                
+                <form action="/beats/checkout" method="post">
+                    <input type="hidden"  name="song" value="1">
+                    <input id="song1" type="submit" value="lease" name="type">
+                    <input type="submit" value="exclusive" name="type">
+                </form>
+            </li>
+            <li>
+                <iframe class="frameID" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/651828236&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" ></iframe>
+                <form action="/beats/checkout" method="post">
+                  <input type="hidden"  name="song" value="2">
+                  <input id="song1" type="submit" value="lease" name="type">
+                  <input type="submit" value="exclusive" name="type">
+              </form>
+            </li>
+            <li>
+                <iframe class="frameID" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/651828215&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" ></iframe>
+                <form action="/beats/checkout" method="post">
+                  <input type="hidden"  name="song" value="3">
+                  <input id="song1" type="submit" value="lease" name="type">
+                  <input type="submit" value="exclusive" name="type">
+              </form>
+            </li>
+            <li>
+                <iframe class="frameID" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/651828377&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" ></iframe>
+                <form action="//beats/checkout" method="post">
+                  <input type="hidden"  name="song" value="4">
+                  <input id="song1" type="submit" value="lease" name="type">
+                  <input type="submit" value="exclusive" name="type">
+              </form>
+            </li>
+            <li>
+                <iframe class="frameID" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/651828659&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" ></iframe>
+                <form action="/beats/checkout" method="post">
+                  <input type="hidden"  name="song" value="5">
+                  <input id="song1" type="submit" value="lease" name="type">
+                  <input type="submit" value="exclusive" name="type">
+              </form>
+            </li>
+            <li>
+                <iframe class="frameID" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/651828248&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" ></iframe>
+                <form action="/beats/checkout" method="post">
+                  <input type="hidden"  name="song" value="6">
+                  <input id="song1" type="submit" value="lease" name="type">
+                  <input type="submit" value="exclusive" name="type">
+              </form>
+            </li>
+
+          </ul>
+         
+        </div>
+        <div id="options">
+          <div id="lease">
+            <h1>Lease beat $10</h1>
+            <ul>
+                <li>sell up to 5000 copies</li>
+                <li>must include "prod. by day dream beats"</li>
+              </ul>
+          </div>
+          <div id="exclusive">
+            <h1>Exclusive $300</h1>
+              <ul>
+                <li>sell up to 10000 copies</li>
+                <li>must include "prod. by day dream beats"</li>
+                <li>Will take off the market(only you will have the beat)</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    
+
+  </body>
+</html>

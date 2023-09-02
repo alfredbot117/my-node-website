@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/poker.css">
+  </head>
+<body>
+<div class = "container">
+  <div class="b">
+    <p>"click the button to generate deck"</p>
+    <button onclick="newRound()">Start Game</button>
+
+    <p id="new"></p>
+  </div>
+
+<script src="../deck.js"> </script>
+
+  <div class="box">
+
+      <div class="rowOne">
+          <div class="slot" id="0"><div id="chips1" > Chips: </div></div>
+          <div class="slot" id="1"><div id="chips1" > Chips: </div></div>
+          <div class="slot" id="2"><div id="chips1" > Chips: </div></div>
+          <div class="slot" id="3"><div id="chips1" > Chips: </div></div>
+      </div>
+
+      <div class = "river">
+          <div class="riverSlot" id="r0"></div>
+          <div class="riverSlot" id="r1"></div>
+          <div class="riverSlot" id="r2"></div>
+          <div class="riverSlot" id="r3"></div>
+          <div class="riverSlot" id="r4"></div>
+      </div>
+
+      <div class="rowTwo">
+          <div class="slot" id="4"><div id="chips2" > Chips: </div></div>
+          <div class="slot" id="5"><div id="chips2" > Chips: </div></div>
+          <div class="slot" id="6"><div id="chips2" > Chips: </div></div>
+          <div class="slot" id="7"><div id="chips2" > Chips: </div></div>
+      </div>
+
+  </div>
+
+  <button onclick="Check()">Check</button>
+  <button onclick="Call()">Call</button>
+  <button onclick="Raise()">Raise</button>
+  <button onclick="Fold()">Fold</button>
+  <div id="textBox">
+    <div id="messages"></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+<script src="/scripts/bootstrap.min.js"></script>
